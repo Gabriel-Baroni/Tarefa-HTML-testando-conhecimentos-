@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos.css\styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="arquivos.css\styles.css">
+    <title>Pikachu</title>
+</head>
+<body>
+    <div class="menu-background2">
+        <h1 class="title2" style="color:orange">Pikachu</h1>
+        <img id="pospokemon"
+            src="imagens\pikachu.gif"
+        />
+        <audio id="som">
+            <source  src="audios\pikachu.mp3" type="audio/mpeg">
+
+        </audio>
+        <script>
+            document.getElementById("pospokemon").addEventListener("click", function() {
+              
+              document.getElementById("som").play();
+            });
+            </script>
+        <img id="poscard"
+        src="imagens\pikachucard.png"
+    />  
+        <p class="p-info + a1" >Informações: </p>
+        <div class="pikachu-info">
+            <ul class="p1">
+                <li>Tipo Elétrico</li>
+                <li>Peso: 6.0kg</li>
+                <li>Ataques: Thurderbolt,  Quick Attack, Iron Tail </li>
+                <li>Número da pokédex: #025</li>
+            </ul>
+        </div>
+        <a href="index.html" class="a1"><img class="pokeball" src="imagens\pokebola.png"> Voltar</a>
+    </div>
+</body>
+</html>

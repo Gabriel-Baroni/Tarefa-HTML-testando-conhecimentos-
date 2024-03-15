@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para telas pequenas */
+  @media only screen and (max-width: 600px) {
+    .menu-background {
+        background-color: #ffffff; 
+        background-image: url('imagens\backgroundsm.jpeg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+
+    .menu-background2 {
+        background-color: #ffffff; 
+        background-image: url('backgroundsm.jpeg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+    .title {
+      padding-top: 100px;
+      font-size: 200%;
+    }
+    .title2{
+        text-align: center;
+        padding-top: 40px; 
+        font-size: 200%;
+    }
+
+    #pospokemon
+    {position: fixed;
+      display: flex;
+      top: 100px;
+      right:30px;
+      width: 200px;
+      height: auto;
+    }
+    
+    #poscard
+    {position:fixed;
+      display: flex;
+      top:200px;
+      left:20px;
+      width: 150px;
+      height: auto;
+    }
+    .p-info{
+        position: fixed;
+        display: flex;
+        font-size: 100%;
+        top: 70px;
+        right: -150px;
+      }
+
+      .pikachu-info {
+        display: flex;
+        position: fixed;
+        text-align: left; 
+        font-size: 10%; 
+        top: 500px;
+        left: 20px; 
+       
+      }
+    .image {
+      width: 400px;
+      padding-bottom: 200px;
+    }
+  
+    a {
+        text-align: left; 
+        display: flex; 
+        margin-left: 300px; 
+        text-decoration: none; 
+        padding-bottom: 40px;
+    }
+    
+  
+    summary {
+        all:unset;
+        display: flex;
+        color: black;
+        position: fixed;
+        bottom: 100px;
+        right: 50px;
+        cursor: pointer;
+      
+    }
+  
+    button {
+      margin-top: 0;
+    }
+  
+    .p1 {
+      padding-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    .p-criaturas{
+        text-align:center; 
+        font-size:100%;
+        display: flex;
+        position: fixed;
+        bottom:50px
+      }
+ 
+  
+   
+  
+    #rodape {
+      width: 100%;
+    }
+    .buttom-pokedex{
+      position: fixed;
+      display: flex;
+      top: 300px;
+      left: 10px;
+    }
+    
+  }
+
+    
+
+  
+  
+  @media only screen and (min-width: 601px) and (max-width: 899px) {
+    .menu-background {
+        background-color: #ffffff; 
+        background-image: url('backgroundsm.jpeg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+
+    .menu-background2 {
+        background-color: #ffffff; 
+        background-image: url('backgroundsm.jpeg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+    .image {
+      width: 250px;
+      padding-bottom: 300px;
+    }
+  
+    .image2 {
+      width: 250px;
+      margin-right: 200px;
+    }
+    .p-info{
+      font-size: 100%;
+      top: 70px;
+      right: -200px;
+    }
+    
+    
+
+
+  
+    button {
+      margin-top: -15vh;
+    }
+    
+    summary {
+        all:unset;
+        display: flex;
+        color: black;
+        position: fixed;
+        bottom: 100px;
+        right: 50px;
+        cursor: pointer;
+      
+    }
+  
+    .p1 {
+      padding-right: 150px;
+      margin-bottom: 30px;
+    }
+  
+    #poscard
+    {position:fixed;
+    display: flex;
+    top:150px;
+    left:100px;
+    width: 150px;
+    height: auto;
+    }
+
+    #pospokemon
+{position: fixed;
+  display: flex;
+  top:100px;
+  right:100px;
+  width: 200px;
+  height: auto;
+
+}
+    #rodape {
+        width: 100%;
+        
+      }
+      .buttom-pokedex{
+        position: fixed;
+        display: flex;
+        top: 300px;
+        left: 100px;
+      }
+
+
+  }
+
+  
+  /* Estilos para telas médias */
+  @media only screen and (min-width: 900px) and (max-width: 1500px) {
+    .menu-background {
+        background-color: #ffffff; 
+        background-image: url('backgroundsm.jpeg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+
+    .menu-background2 {
+        background-color: #ffffff; 
+        background-image: url('backgroundsm.jpeg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+    .image {
+      width: 250px;
+      padding-bottom: 300px;
+    }
+  
+    .image2 {
+      width: 250px;
+      margin-right: 200px;
+    }
+  
+    button {
+      margin-top: -15vh;
+    }
+    
+    summary {
+        all:unset;
+        display: flex;
+        color: black;
+        position: fixed;
+        bottom: 100px;
+        right: 50px;
+        cursor: pointer;
+      
+    }
+  
+    .p1 {
+      padding-right: 150px;
+      margin-bottom: 30px;
+    }
+  
+    #poscard
+    {position:fixed;
+    display: flex;
+    top:150px;
+    left:100px;
+    width: 200px;
+    height: auto;
+    }
+
+    #pospokemon
+{position: fixed;
+  display: flex;
+  top:100px;
+  right:100px;
+  width: 300px;
+  height: auto;
+
+}
+    #rodape {
+        width: 100%;
+        
+      }
+
+      .buttom-pokedex{
+        position: fixed;
+        display: flex;
+        top: 300px;
+        left: 325px;
+      }
+    
+
+
+  }
+

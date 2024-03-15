@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos.css\styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="arquivos.css\responsive-styles.css">
+    <title>Charmander</title>
+</head>
+<body>
+    <div class="menu-background2">
+        <h1 class="title2" style="color:red" >Charmander</h1>
+        <img id="pospokemon"
+            src="imagens\charmander.gif"
+        />
+        <audio id="som">
+            <source  src="audios\charmander.mp3" type="audio/mpeg">
+
+        </audio>
+        <script>
+            document.getElementById("pospokemon").addEventListener("click", function() {
+              
+              document.getElementById("som").play();
+            });
+            </script>
+        <img id="poscard"
+            src="imagens\charmandercard.jpg"
+        />
+        <p class="p-info + a2" >Informações: </p>
+        <div class="pikachu-info">
+            <ul class="p1">
+                <li>Tipo Fogo</li>
+                <li>Peso: 8.5kg</li>
+                <li>Ataques: Fire Spin,  Slash, Flare Blitz </li>
+                <li>Número pokédex: #04 </li>
+            </ul>
+        </div>
+        <a href="index.html" class="a2"><img class="pokeball" src="imagens\pokebola.png"> Voltar</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos.css\styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="arquivos.css\responsive-styles.css">
+    <title>Squirtle</title>
+</head>
+<body>
+    <div class="menu-background2">
+        <h1 class="title2" style="color:blue">Squirtle</h1>
+        <img id="pospokemon"
+            src="imagens\squirtle.gif"
+        />
+        <img id="poscard"
+            src="imagens\squirtlecard.jpg"
+        />
+        <audio id="som">
+            <source  src="audios\squirtle.mp3" type="audio/mpeg">
+
+        </audio>
+        <script>
+            document.getElementById("pospokemon").addEventListener("click", function() {
+              
+              document.getElementById("som").play();
+            });
+        </script>
+         <p class="p-info + a3" >Informações: </p>
+        <div class="pikachu-info">
+            <ul class="p1">
+                <li>Tipo Água</li>
+                <li>Peso: 9.0kg</li>
+                <li>Ataques: WaterGun,  Bite, Tail Whip </li>
+                <li>Número pokédex: #07 </li>
+            </ul>
+        </div>
+        <a href="index.html" class="a3"><img class="pokeball" src="imagens\pokebola.png"> Voltar</a>
+    </div>
+</body>
+</html>

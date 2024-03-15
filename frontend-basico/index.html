@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos.css\styles.css">
+    <link rel="stylesheet" href="arquivos.css\responsive-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title>Pokemon</title>
+</head>
+<body>
+    <div class="menu-background">
+        <h1 class="aparecer + title" >O mundo dos</h1>
+        <p style="text-align: center;">
+          <img class="image + aparecer"  
+            src="imagens\pokemon-logo.png"
+          />
+       </p>
+       <details >
+        <summary><img class="pokeball + rotacao" src="imagens\pokebola.png">Pokemons</summary>
+        <ul class="dropdown">
+          <div class="dropdown-menu">
+          <li>
+            <a href="pikachu.html" class="a1" style="  margin-top:-90px ;"><img class="pokeball" src="imagens\pokebola.png" > Pikachu</a>
+          </li>
+          <li>
+            <a href="charmander.html" class="a2" style="  margin-top:-90px ;"><img class="pokeball" src="imagens\pokebola.png" > Charmander</a>
+          <li>
+            <a href="bulbasaur.html" class="a4" style="  margin-top:-90px ;"><img class="pokeball" src="imagens\pokebola.png"> Bulbasaur</a>
+          </li>
+          <li>
+            <a href="squirtle.html" class="a3" style="  margin-top:-90px ;"><img class="pokeball" src="imagens\pokebola.png"> Squirtle</a>
+          </li>
+          <li>
+            <a href="pokedex.html" class="a5" style="  margin-top:-90px ;"><img class="pokeball" src="imagens\pokebola.png"> Pokedex</a>
+          </li>
+        </div>
+        </ul>
+       </details>
+       <button onclick="togglePlayPause()" class="pulsante"> Press Start</button>
+       <audio id="myAudio" src="audios\02 Opening (part 2).mp3"></audio>
+
+       <script>
+         var audio = document.getElementById('myAudio');
+         var button = document.querySelector('button');
+       
+         function togglePlayPause() {
+           if (audio.paused || audio.ended) {
+             audio.play();
+             button.textContent = 'Pause';
+           } else {
+             audio.pause();
+             audio.currentTime = 0; // Reinicia o áudio para o início
+             button.textContent = "Press Start";
+           }
+         }
+       
+         audio.onended = function() {
+           button.textContent = 'Press Start';
+         };
+       </script>
+          <p class="p-criaturas">
+            Saiba mais sobre essas criaturas
+       </p>
+       <div id="rodape">
+        <p class="prodape">2024, por favor Nintendo não me processa :(</p>
+       </div>
+    </div>
+</body>
+</html>
